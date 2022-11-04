@@ -4,7 +4,7 @@ This repository contains several Java projects to illustrate how to create _fat-
 
 ## Maven
 
-First, the local dependencies (if any) should be installed in the Maven local repository (`.m2/repository`). In these examples, this dependency is simulated with the project `saucelabs-selenium-diy`, used as a dependency in the rest (`saucelabs-selenium-junit4`, `saucelabs-selenium-junit5`, and `saucelabs-selenium-testng`). The Maven command to make this installation is:
+First, the local dependencies (if any) should be installed in the Maven local repository (`.m2/repository`). In these examples, this dependency is simulated with the project [saucelabs-selenium-diy](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-diy), used as a dependency in the rest ([saucelabs-selenium-junit4](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-junit4), [saucelabs-selenium-junit5](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-junit5), and [saucelabs-selenium-testng](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-testng)). The Maven command to make this installation is:
 
 ```
 mvn install
@@ -46,7 +46,7 @@ java -jar filename-fat.jar
 
 ## Gradle
 
-First, the local dependencies (if any) should be installed in the Maven local repository (`.m2/repository`). In these examples, this dependency is simulated with the project `saucelabs-selenium-diy`, used as a dependency in the rest (`saucelabs-selenium-junit4`, `saucelabs-selenium-junit5`, and `saucelabs-selenium-testng`). The Gradle command to make this installation is:
+First, the local dependencies (if any) should be installed in the Maven local repository (`.m2/repository`). In these examples, this dependency is simulated with the project [saucelabs-selenium-diy](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-diy), used as a dependency in the rest ([saucelabs-selenium-junit4](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-junit4), [saucelabs-selenium-junit5](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-junit5), and [saucelabs-selenium-testng](https://github.com/bonigarcia/saucelabs-fat-jars/tree/main/saucelabs-selenium-testng)). The Gradle command to make this installation is:
 
 ```
 gradle publishToMavenLocal
